@@ -1,0 +1,301 @@
+header
+{
+    margin: 92px 51px 92px 49px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+     justify-content: space-around;
+color: #000;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.info{
+    color: #000;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+a{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12px; 
+    margin-right: 12px;
+    text-decoration: none;
+}
+.image-bg{
+    width: 100%;
+    height: 751px;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(
+'../images/lotus-flower.png');
+    
+    background-size: cover; /* Размер фона */
+  background-position: center;
+ 
+}
+
+.text{
+    margin: -38% 0px  237px 40px;
+    display: block;
+    align-items: center;
+    color: azure;
+    color: #FFF;
+font-family: Raleway;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 115%;
+letter-spacing: 60px;
+text-transform: uppercase;
+color: #FFF;
+
+}
+.one{
+    display: flex;
+   justify-content: start;
+   /* align-items: ; */
+    font-family: 'Raleway', sans-serif;
+}
+.two{
+   display: flex;
+   justify-content: stretch;
+   align-items: center;
+   font-family: 'Raleway', sans-serif;
+   margin-left: 29%;
+
+}
+.trea{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: end;
+    left: 10px;
+}
+
+.opis{
+    color: #FFF;
+    color: #FFF;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 200;
+line-height: 28px; /* 127.273% */
+text-transform: uppercase;
+margin-top: -72px;
+}
+.clic{
+  
+color: #FFF;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+text-transform: uppercase;
+border-style: solid;
+padding: 12px 32px 12px 32px;
+border-width: 1px;
+border-color: #FFF;
+}
+.claz{
+    display: flex;
+    justify-content: stretch;
+    margin-left: 78%;
+    margin-top: -45px;
+}
+
+
+
+.lots{
+    margin: 280px 50px 0px 50px;
+}
+.zagolovok{
+    margin: 180px 50px 0px 50px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.ower{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 450px); */
+    gap: 25px;
+    margin: 50px 27px 50px 30px;
+}
+.bloc_one{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/photo.png);
+    background-size: cover; /* Размер фона */
+    background-position: center;
+}
+.bloc_two{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/photo.jpg);
+    background-size: cover; /* Размер фона */
+    background-position: center;
+}
+.bloc_trea{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url(../images/photo-2.png);
+    background-size: cover; /* Размер фона */
+    background-position: center;
+}
+.text_glav{
+    margin: 50px 40px 0px 40px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+.text_opis{
+    margin: 202px 40px 50px 40px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120%; /* 24px */
+}
+.text_opis_2{
+    margin: 30px 40px 50px 40px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120%; /* 24px */
+}
+.text_opis_3{
+    margin: 84px 40px 50px 40px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120%; /* 24px */
+}
+.end{
+    display: flex;
+    justify-content: stretch;
+    margin-left: 90px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+.logo_z{
+    margin: 181px 50px 0px 50px;
+    background-image: url(../images/Ellipse\ 10.svg);
+    background-repeat: none;
+    background-position: center;
+    width: 240px;
+    height: 240px;
+}
+.logo{
+    margin: 181px 50px 0px 50px;
+    background-image: url(../images/logo-white.svg);
+    /* background-position: center; */
+    background-repeat: none;
+    display: block;
+    width: 150px;
+    height: 110px;
+    margin-top: -177px;
+    margin-left: 93px;
+}
+.about{
+    margin: 181px 50px 0px 50px;
+}
+.about_column{
+    margin-left: 455px;
+    margin-top: -250px;
+}
+.text_about {
+    margin-top: 100px;
+    width: 885px;
+height: 119px;
+flex-shrink: 0;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text_about_2{
+    margin-top: 25px;
+    width: 885px;
+height: 119px;
+flex-shrink: 0;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.zagolovok_2{
+    margin-top: 180px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+footer{
+    margin: 92px 51px 92px 49px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_info{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.footer_navigation{
+   
+color: #000;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.ico{
+    display: flex;
+    justify-content: center;
+}
+
+a { 
+    text-decoration: none;
+    color: #000;
+  }
+a:hover { text-decoration: underline; }
